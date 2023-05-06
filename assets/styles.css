@@ -1,0 +1,74 @@
+body{
+    font-family: "Inter" , "Arial Rounded MT Bold";
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #191919;
+    box-shadow: 0px 2px 2px #EB1D36;
+    display: flex;
+    z-index: 1;
+}
+header>img{
+    position: relative;
+    left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+header>nav{
+    margin-left: 65%;
+    margin-top: 1%;
+    margin-right: 20%;
+}
+header>nav>ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: right;
+}
+
+header>nav>ul>li{
+    margin-right: 10%;
+    list-style: none;
+}
+
+section{
+    width: 100vw;
+}
+
+section:nth-child(1){
+    background-image: url("Rectangle 2.png");
+    margin-top: 0;
+    position: relative;
+    top: 0;
+    height: 80vh;
+}
+
+h1{
+    font-size: 48px;
+    color: white;
+}
+section:nth-child(1)>article{
+    position: relative;
+    top: 40%;
+    font-size: 24px;
+}
+
+section:nth-child(1)>article h1{
+    margin: 0;
+    text-align: center;
+}
+
+section:nth-child(1)>article h5{
+    color: white;
+    text-align: center;
+    background-color: #EB1D36;
+    background-size: 20%;
+}
+
+h5{
+    font-size: 15px;
+    font-weight: inherit;
+}
