@@ -144,24 +144,31 @@
         <h2>Contact Us &</h2>
         <h2>We Can Work Together</h2>
         <aside>
-            <form action="" method="get">
-                <fieldset>
-
-                    <label>Name</label><br>
-                    <input type="text" name="name" id="name" required>
-                    <br>
-
-                    <label>Email</label><br>
-                    <input type="email" name="email" id="email" required>
-                    <br>
-
-                    <label>Message</label><br>
-                    <textarea id="textArea" name="message"></textarea>
-                    <br>
-
-                    <input type="submit" name="submit" id="submit" value="Submit">
-                    <br>
-                </fieldset>
+            <form>
+                <ul class="form-style-1">
+                    <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+                    <li>
+                        <label>Email <span class="required">*</span></label>
+                        <input type="email" name="field3" class="field-long" />
+                    </li>
+                    <li>
+                        <label>Subject</label>
+                        <select name="field4" class="field-select">
+                            <option value="Advertise">Graphic Design</option>
+                            <option value="Partnership">Web Design</option>
+                            <option value="General Question">Video Production</option>
+                            <option value="printing">Printing</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label>Your Message <span class="required">*</span></label>
+                        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" value="Submit" />
+                    </li>
+                </ul>
             </form>
         </aside>
         <figure>

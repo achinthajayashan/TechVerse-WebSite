@@ -1,8 +1,8 @@
-body{
-    font-family: "Inter" , "Arial Rounded MT Bold";
+body {
+    font-family: "Inter", "Arial Rounded MT Bold";
 }
 
-header{
+header {
     position: sticky;
     top: 0;
     background-color: #191919;
@@ -10,59 +10,62 @@ header{
     display: flex;
     z-index: 1;
 }
-header>img{
+
+header > img {
     position: relative;
     left: 5%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
-header>nav{
+header > nav {
     margin-left: 65%;
     margin-top: 1%;
     margin-right: 20%;
 }
-header>nav>ul{
+
+header > nav > ul {
     display: flex;
     flex-direction: row;
     color: white;
     justify-content: right;
 }
 
-header>nav>ul>li{
+header > nav > ul > li {
     margin-right: 10%;
     list-style: none;
 }
 
-section{
+section {
     width: 100vw;
     position: relative;
 }
 
-section:nth-child(1){
+section:nth-child(1) {
     background-image: url("Rectangle 2.png");
     margin-top: 0;
     top: 0;
     height: 80vh;
 }
 
-h1{
+h1 {
     font-size: 48px;
     color: white;
 }
-section:nth-child(1)>article{
+
+section:nth-child(1) > article {
     position: relative;
     top: 40%;
     font-size: 24px;
     height: 80%;
 }
 
-section:nth-child(1)>article h1{
+section:nth-child(1) > article h1 {
     margin: 0;
     text-align: center;
 }
 
-section:nth-child(1)>article>div{
+section:nth-child(1) > article > div {
     background-color: #EB1D36;
     width: 10%;
     height: 5%;
@@ -71,12 +74,12 @@ section:nth-child(1)>article>div{
 
 }
 
-section:nth-child(1)>article>div>h5{
+section:nth-child(1) > article > div > h5 {
     padding-top: 3px;
 }
 
 
-h5{
+h5 {
     font-size: 20px;
     font-weight: inherit;
     color: white;
@@ -84,18 +87,18 @@ h5{
 
 }
 
-section:nth-child(2){
+section:nth-child(2) {
     display: flex;
     flex-direction: row;
 }
 
-section:nth-child(2)>figure{
+section:nth-child(2) > figure {
     position: relative;
     top: 70px;
     left: 12%;
 }
 
-section:nth-child(2)>article {
+section:nth-child(2) > article {
     position: relative;
     top: 90px;
     text-align: right;
@@ -104,31 +107,31 @@ section:nth-child(2)>article {
     height: 70vh;
 }
 
-section:nth-child(2)>article h2{
+section:nth-child(2) > article h2 {
     font-size: 40px;
     margin: 0;
     margin-bottom: 10px;
 }
 
-section:nth-child(2)>article p{
+section:nth-child(2) > article p {
     text-align: justify;
-    justify:inter-word;
+    justify: inter-word;
     margin-top: 40px;
     font-size: 18px;
 
 }
 
-section:nth-child(2)>article h2:nth-child(2){
+section:nth-child(2) > article h2:nth-child(2) {
     margin-bottom: 10%;
     color: #EB1D36;
 }
 
-section:nth-child(3){
+section:nth-child(3) {
     background-color: #191919;
     display: flex;
 }
 
-section:nth-child(2)>article>div{
+section:nth-child(2) > article > div {
     background-color: #EB1D36;
     width: 150px;
     height: 5%;
@@ -141,11 +144,11 @@ section:nth-child(2)>article>div{
 
 }
 
-section:nth-child(2)>article>div>h5{
+section:nth-child(2) > article > div > h5 {
     padding-top: 3px;
 }
 
-section:nth-child(3)>article {
+section:nth-child(3) > article {
     position: relative;
     top: 120px;
     text-align: left;
@@ -154,41 +157,41 @@ section:nth-child(3)>article {
     width: 25%;
 }
 
-section:nth-child(3)>article h2{
+section:nth-child(3) > article h2 {
     color: white;
     font-size: 40px;
     margin: 0;
     margin-bottom: 10px;
 }
 
-section:nth-child(3)>article p{
+section:nth-child(3) > article p {
     color: white;
     text-align: justify;
-    justify:inter-word;
+    justify: inter-word;
     margin-top: 40px;
     font-size: 18px;
     line-height: 25px;
 
 }
 
-section:nth-child(3)>article h2:nth-child(2){
+section:nth-child(3) > article h2:nth-child(2) {
     margin-bottom: 10%;
     color: #EB1D36;
 }
 
-section:nth-child(3)>aside{
+section:nth-child(3) > aside {
     display: grid;
     position: relative;
     width: 500px;
     height: 30%;
     top: 120px;
     right: -30%;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
 }
 
-section:nth-child(3)>aside div{
+section:nth-child(3) > aside div {
     position: relative;
     background-color: white;
     border-radius: 20px;
@@ -199,16 +202,16 @@ section:nth-child(3)>aside div{
 
 }
 
-section:nth-child(3)>aside div img{
+section:nth-child(3) > aside div img {
     padding-top: 30px;
 }
 
-section:nth-child(3)>aside div h6{
+section:nth-child(3) > aside div h6 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-section:nth-child(3)>article>div{
+section:nth-child(3) > article > div {
     background-color: #EB1D36;
     width: 150px;
     height: 5%;
@@ -221,18 +224,18 @@ section:nth-child(3)>article>div{
 
 }
 
-section:nth-child(3)>article>div>h5{
+section:nth-child(3) > article > div > h5 {
     padding-top: 3px;
 }
 
-section:nth-child(4){
+section:nth-child(4) {
     text-align: center;
     position: relative;
     height: 90vh;
 
 }
 
-section:nth-child(4)>h2{
+section:nth-child(4) > h2 {
     position: relative;
     top: 10%;
     font-size: 40px;
@@ -240,11 +243,11 @@ section:nth-child(4)>h2{
     margin-bottom: 10px;
 }
 
-section:nth-child(4)>h2:nth-child(2){
+section:nth-child(4) > h2:nth-child(2) {
     color: #EB1D36;
 }
 
-section:nth-child(4)>div{
+section:nth-child(4) > div {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -252,20 +255,20 @@ section:nth-child(4)>div{
     top: 20%;
 }
 
-section:nth-child(4)>div>div{
+section:nth-child(4) > div > div {
     height: 351px;
     width: 318px;
     background-image: url("project1.png");
 
 }
 
-section:nth-child(4)>p{
+section:nth-child(4) > p {
     position: relative;
     top: 30%;
     font-size: 18px;
 }
 
-section:nth-child(4)>div:last-child{
+section:nth-child(4) > div:last-child {
     background-color: #EB1D36;
     width: 150px;
     height: 5%;
@@ -276,16 +279,17 @@ section:nth-child(4)>div:last-child{
     top: 30%;
 }
 
-section:nth-child(4)>div:last-child>h5{
+section:nth-child(4) > div:last-child > h5 {
     margin: 0;
     padding-top: 7px;
 }
 
-section:nth-child(5){
+section:nth-child(5) {
     background-color: #191919;
     height: 70vh;
 }
-section:nth-child(5)>h2{
+
+section:nth-child(5) > h2 {
     font-size: 40px;
     margin: 0;
     margin-bottom: 10px;
@@ -296,18 +300,18 @@ section:nth-child(5)>h2{
     right: 12%;
 }
 
-section:nth-child(5)>h2:nth-child(2){
+section:nth-child(5) > h2:nth-child(2) {
     color: #EB1D36;
     margin-bottom: 5%;
 }
 
-section:nth-child(5)>div{
+section:nth-child(5) > div {
     border-radius: 20px;
     background-color: #B1AEAE;
     width: 60%;
     height: 45%;
     text-align: justify;
-    justify:inter-word;
+    justify: inter-word;
     padding-left: 5%;
     padding-top: 0.5%;
     position: relative;
@@ -316,12 +320,140 @@ section:nth-child(5)>div{
     margin: auto;
 }
 
-section:nth-child(5)>div p{
+section:nth-child(5) > div p {
     width: 90%;
 }
 
-section:nth-child(5)>h4{
+section:nth-child(5) > h4 {
     color: white;
-    position: relative;
-    left: 20%;
+    margin-left: 20%;
 }
+section:nth-child(6){
+    height: 80vh;
+}
+section:nth-child(6) > h2 {
+    font-size: 40px;
+    margin-left: 12%;
+    margin-bottom: 5px;
+    color: #191919;
+    text-align: left;
+
+}
+
+section:nth-child(6) > h2:nth-child(2) {
+    color: #EB1D36;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+
+
+.form-style-1 {
+    margin: 10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font-size: 20px;
+}
+
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+.form-style-1 label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+}
+
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea,
+select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #BEBEBE;
+    padding: 7px;
+    margin: 0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus {
+    -moz-box-shadow: 0 0 8px #EB1D36;
+    -webkit-box-shadow: 0 0 8px #EB1D36;
+    box-shadow: 0 0 8px #EB1D36;
+    border: 1px solid #EB1D36;
+}
+
+.form-style-1 .field-divided {
+    width: 49%;
+}
+
+.form-style-1 .field-long {
+    width: 100%;
+}
+
+.form-style-1 .field-select {
+    width: 100%;
+}
+
+.form-style-1 .field-textarea {
+    height: 100px;
+}
+
+.form-style-1 input[type=submit], .form-style-1 input[type=button] {
+    background: #EB1D36;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover {
+    background: #191919;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form-style-1 .required {
+    color: red;
+}
+
+section:nth-child(6) >aside{
+    width: 600px;
+    position: relative;
+    left: 7%;
+}
+
+section:nth-child(6)>figure{
+    position: absolute;
+    bottom: -3%;
+    right: 12%;
+}
+
+footer{
+    background-color: #191919;
+}
+
